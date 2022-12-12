@@ -1,0 +1,35 @@
+{
+  "version" : 1,
+  "name" : "Raster Functions History",
+  "historyItems" : [
+    {
+      "id" : "{409049C2-BE54-4F59-A735-ADCD94827B35}",
+      "type" : 1,
+      "status" : 2,
+      "name" : "Stretch",
+      "description" : "Enhances an image by adjusting the range of values displayed. This does not alter the underlying pixel values. If a pixel has a value outside of the specified range, it will appear as either the minimum or maximum value.",
+      "rftPath" : "Stretch_{409049C2-BE54-4F59-A735-ADCD94827B35}.rft.xml",
+      "startTime" : "638038882620000000",
+      "endTime" : "638038882620000000",
+      "remoteJobStateInfo" : {
+        "ID" : "_lcljob",
+        "Status" : 5,
+        "ReturnValue" : "",
+        "Messages" : [
+          {
+            "Text" : "Submitted.",
+            "Type" : 0
+          },
+          {
+            "Text" : "Executing...",
+            "Type" : 0
+          },
+          {
+            "Text" : "Succeeded.",
+            "Type" : 0
+          }
+        ]
+      }
+    }
+  ]
+}

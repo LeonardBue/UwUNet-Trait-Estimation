@@ -1,0 +1,39 @@
+name: unet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - imageio
+  - tqdm
+  - matplotlib
+  - python=3.10
+  - pandas
+  - scipy
+  - lxml
+  - conda
+  - tifffile
+  - pytorch
+  - cuda=11.6
+  - numpy=1.22
+  - ipykernel
+  - opencv
+  - spectral
+  - pydoe2
+  - rasterio
+  - scikit-learn
+  - optuna
+  - plotly
+  - seaborn
+  - python-kaleido
+  - torchmetrics
+  - nbformat
+  - scikit-image
+  - statsmodels
+  - shapely
+  - geopandas
+  - cssselect
+  - pip
+  - pip:
+    - prosail
+    - csaps
+prefix: C:\Users\lbuchner\.conda\envs\unet

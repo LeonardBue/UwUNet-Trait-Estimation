@@ -1,0 +1,40 @@
+{
+    "batch_size": 2,
+    "bpds_kwargs": {},
+    "buffer_size": 1,
+    "buffer_switch_frequency": 2,
+    "class_dataset": "RasterDataset",
+    "early_stopping": false,
+    "final_chan": 97,
+    "gpu_ids": [
+        0
+    ],
+    "interval_save": 50,
+    "iter_checkpoint": [],
+    "lr": 0.0001,
+    "n_iter": 22560,
+    "nn_kwargs": {
+        "final_chan": 97
+    },
+    "nn_module": "fnet_nn_UwU",
+    "patch_size": [
+        64,
+        64
+    ],
+    "path_dataset_csv": "../../data/Hyperion/EO1H0450222004225110PZ/train.csv",
+    "path_dataset_val_csv": "../../data/Hyperion/EO1H0450222004225110PZ/test.csv",
+    "path_run_dir": "saved_models/EO1H0450222004225110PZ",
+    "path_spatial_model": null,
+    "propper_kwargs": {},
+    "read_channel_from": 0,
+    "scale_signal": null,
+    "scale_target": null,
+    "seed": null,
+    "shuffle_images": true,
+    "transform_signal": [
+        "fnet.transforms.do_nothing"
+    ],
+    "transform_target": [
+        "fnet.transforms.do_nothing"
+    ]
+}

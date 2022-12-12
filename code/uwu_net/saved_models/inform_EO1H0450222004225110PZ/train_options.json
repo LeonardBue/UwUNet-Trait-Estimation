@@ -1,0 +1,40 @@
+{
+    "batch_size": 8,
+    "bpds_kwargs": {},
+    "buffer_size": 1,
+    "buffer_switch_frequency": 64001,
+    "class_dataset": "RasterDataset",
+    "early_stopping": false,
+    "final_chan": 4,
+    "gpu_ids": [
+        0
+    ],
+    "interval_save": 50,
+    "iter_checkpoint": [],
+    "lr": 0.004,
+    "n_iter": 2500,
+    "nn_kwargs": {
+        "final_chan": 4
+    },
+    "nn_module": "fnet_nn_UwU",
+    "patch_size": [
+        64,
+        64
+    ],
+    "path_dataset_csv": "../../data/dbs/inform_EO1H0450222004225110PZ/train.csv",
+    "path_dataset_val_csv": "../../data/dbs/inform_EO1H0450222004225110PZ/test.csv",
+    "path_run_dir": "saved_models/inform_EO1H0450222004225110PZ",
+    "path_spatial_model": "saved_models/EO1H0450222004225110PZ",
+    "propper_kwargs": {},
+    "read_channel_from": 15,
+    "scale_signal": null,
+    "scale_target": "MinMaxScaler",
+    "seed": null,
+    "shuffle_images": false,
+    "transform_signal": [
+        "fnet.transforms.do_nothing"
+    ],
+    "transform_target": [
+        "fnet.transforms.do_nothing"
+    ]
+}
